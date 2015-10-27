@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM janeczku/alpine-kubernetes
 MAINTAINER support@trunkplatform.com
 
 RUN apk --update add ca-certificates nginx && \
