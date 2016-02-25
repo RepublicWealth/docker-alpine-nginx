@@ -3,9 +3,9 @@
 
 Minimal alpine nginx container with ONBUILD config copy
 
-Uses [janeczku/alpine-kubernetes](https://github.com/janeczku/docker-alpine-kubernetes) to enable Service Discovery in Cloud PaaS such as Kubernets, Consul, Tutum etc
+Uses [republicwealth/alpine-s6](https://github.com/RepublicWealth/docker-alpine-s6) to enable Service Discovery in Cloud PaaS such as Kubernets, Consul, Tutum etc
 
 ## Usage
 
-    docker build -t trunk/alpine-nginx .
-    docker run --rm -ti trunk/alpine-nginx
+    docker build -t quay.io/republicwealth/alpine-nginx .
+    docker run --rm -ti quay.io/republicwealth/alpine-nginx
